@@ -1,0 +1,8 @@
+Testing Env Commands:
+
+1. Launch Gazebo: gz sim v4 -r iris_runway.sdf
+2. Launch SITL: sim_vehicle.py -v ArduCopter -f gazebo-iris --model JSON --out=udp:127.0.0.1:14552 --out=udp:127.0.0.1:14551 --speedup 50
+3. Launch QGC:./QGroundControl.AppImage 
+4. Run the Script: python3 new.py --kml demo_survey_area_new.kml
+5: View & Generate Waypoints: python3 input_kml.py --input NIDAR/demo_survey_area_new.kml --out-prefix output --format kml
+

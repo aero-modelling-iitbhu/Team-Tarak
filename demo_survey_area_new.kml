@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Survey_Box</name>
+    <Placemark>
+      <name>Survey Area</name>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              149.160790,-35.360879
+              149.160764,-35.363546
+              149.166297,-35.363546
+              149.166284,-35.360858
+              149.160790,-35.360879
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

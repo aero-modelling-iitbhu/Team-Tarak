@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>demo_survey_area_fixed.kml</name>
+    <Placemark>
+      <name>Survey Area (fixed)</name>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              149.165243,-35.363244 149.165443,-35.363244 149.165443,-35.363044 149.165243,-35.363044 149.165243,-35.363244
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

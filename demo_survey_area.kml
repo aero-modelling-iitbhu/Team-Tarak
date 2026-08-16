@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Demo Survey Area</name>
+    <description>Square survey area for Gazebo SITL testing (100m x 100m)</description>
+    <Placemark>
+      <name>Survey Polygon</name>
+      <description>Rectangular area for lawnmower pattern</description>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              -35.363244,149.165243,0
+              -35.363244,149.165443,0
+              -35.363044,149.165443,0
+              -35.363044,149.165243,0
+              -35.363244,149.165243,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
